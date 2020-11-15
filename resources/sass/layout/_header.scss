@@ -1,7 +1,13 @@
-.wrapper {
-  .navigation {
-    ul {
-      list-style-type: none;
+.navigation {
+  .icons__list {
+    list-style-type: none;
+
+    li > a {
+      text-decoration: none;
+
+      i {
+        color: #fff;
+      }
     }
   }
 }

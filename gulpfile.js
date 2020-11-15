@@ -120,7 +120,7 @@ gulp.task(
   ],
   function () {
     // gulp watch syntax
-    gulp.watch('resources/sass/*.scss', ['sass']);
+    gulp.watch('resources/sass/**/*.scss', ['sass']);
     // Other watchers
     // Reloads the browser whenever HTML or JS files change
     gulp.watch('**/**/*.html', browserSync.reload);

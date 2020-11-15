@@ -514,3 +514,15 @@ textarea {
   h2,
   h3 {
     page-break-after: avoid; } }
+
+.wrapper {
+  display: grid;
+  grid-template-rows: -webkit-min-content 30vh 60vw 180vh 30px 30px 180vh 180vh 20vw;
+  grid-template-rows: min-content 30vh 60vw 180vh 30px 30px 180vh 180vh 20vw; }
+
+.navigation .icons__list {
+  list-style-type: none; }
+  .navigation .icons__list li > a {
+    text-decoration: none; }
+    .navigation .icons__list li > a i {
+      color: #fff; }
