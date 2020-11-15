@@ -1,4 +1,8 @@
 .wrapper {
   display: grid;
-  grid-template-rows: min-content 30vh 60vw 180vh 30px 30px 180vh 180vh 20vw;
+  grid-template-rows: min-content 30vh 40vw repeat(21, minmax(150px, 1fr)) 20vw;
+  grid-template-columns:
+    0px repeat(10, [col-start] 1fr [col-end])
+    0px;
+  gap: 20px 30px;
 }

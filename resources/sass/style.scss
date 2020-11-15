@@ -3,4 +3,5 @@
 @import "base/typography", "sass-utils/variables", "sass-utils/mixins",
   "../../vendors/js-css__libraries/bourbon/core/bourbon",
   "../../vendors/js-css__libraries/breakpoint-sass/stylesheets/breakpoint";
-@import "base/base", "layout/header", "layout/footer";
+@import "base/base", "layout/header", "layout/footer", "layout/title__headings",
+  "layout/my__name", "layout/popular__posts";
